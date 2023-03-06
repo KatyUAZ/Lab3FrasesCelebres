@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imagenAutor"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:contentDescription="TODO"
+        android:padding="@dimen/padding_regular"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/john_lennon"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenAutor"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/autorFrase1"
+        android:textAlignment="viewEnd"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:padding="@dimen/padding_regular"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fraseCelebre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autor"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/frase1"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:padding="@dimen/padding_regular"/>
+
+
+</RelativeLayout>

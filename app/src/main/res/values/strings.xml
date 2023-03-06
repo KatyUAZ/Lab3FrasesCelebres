@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Frases Célebres</string>
+    <string name="mostrar_frase">Mostrar Frase</string>
+    <string name="generar_no">Generar No.</string>
+    <string name="numero">1</string>
+    <string name="frase1">\"Haz el amor y no la guerra\"</string>
+    <string name="autorFrase1">John Lennon</string>
+    <string name="frase2">\"El dinero no puede comprar la vida\"</string>
+    <string name="autorFrase2">Bob Marley</string>
+    <string name="frase3">\"Cada día sabemos más y entendemos menos\"</string>
+    <string name="autorFrase3">Albert Einstein</string>
+</resources>
